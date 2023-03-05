@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyNote</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Header-->
+    
+    <header class="header">
+        <a href="#" class="logo">MyN<span><i class='bx bxs-star'></i></span>te</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#Mynote10">MyNote 1.0</a>
+            <a href="#function">Functions</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, welcome to</h3>
+            <h1>MyNote</h1>
+            <h3>An application that helps you <span class="multi-text">take notes</span></h3>
+            <p>Remember everything and manage all projects with notes, tasks, and schedules all in one place.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>   
+            </div>
+            <form class="register">
+                <input type="email" placeholder="Email address" required>
+                <a href="#" class="btn">Pre-register now</a>
+            </form>
+            
+        </div>
+        <div class="home-img">
+            <img src="images/Picture1.png" alt="">
+        </div>
+    </section>
+
+    <section class="Mynote10" id="Mynote10">
+        <div class="Mynote10-img">
+            <img src="images/a.png" alt="">
+        </div>
+        <div class="Mynote10-content">
+            <h2 class="heading">About <span>MyNote 1.0</span></h2>
+            <h3>Notes taking app</h3>
+            <p><ul>
+                <li>Take notes, create todo-list and schedule events</li>
+                <li>Developed by .Net MAUI framework </li>
+                <li>Support platforms: Android, IOS, macOS, Windows, Linux</li>
+                <li>Expected release date: March 3, 2023</li>
+            </ul></p>
+        </div>
+    </section>
+
+    <!--function-->
+    <section class="function" id="function">
+        <h2 class="heading">Key <span>functions</span></h2>
+
+        <div class="function-container">
+            <div class="function-box">
+                <i class='bx bx-notepad'></i>
+                <h3>Taking notes</h3>
+                <p>Add text, images, audio, documents, code, video. Organize notes in a '1 notebook - many notes' model. Automatically import content into notes. Export as PDF files. Share via email.</p>
+            </div>
+
+            <div class="function-box">
+                <i class='bx bx-task' ></i>
+                <h3>Create Todo-lists</h3>
+                <p>Create a list of tasks (things to do). Mark tasks as completed or not. Support reminder for tasks by automatically transferring tasks that need to be reminded to the scheduling function.</p>
+            </div>
+
+            <div class="function-box">
+                <i class='bx bxs-calendar' ></i>
+                <h3>Schedule management</h3>
+                <p>Create a schedule with customizable time. Set up reminders with alarm sound. Trigger alarm and send email notification when the time comes. Repeat the task on the desired schedule</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--features-->
+    <section class="features" id="features">
+        <h2 class="heading">Standout <span>features</span></h2>
+
+        <div class="features-container">
+            <div class="features-box">
+                <img src="images/feature1.png" alt="">
+                <div class="features-layer">
+                    <h4>User-friendly</h4>
+                    <p>User-friendly, aesthetically pleasing, easy to navigate, easy to use, and easy to execute</p>
+                </div>
+            </div>
+
+            <div class="features-box">
+                <img src="images/pic5.png" alt="">
+                <div class="features-layer">
+                    <h4>Multi-platform </h4>
+                    <p>Supported platforms: Android, IOS, macOS, Windows, Linux</p>
+                </div>
+            </div>
+
+            <div class="features-box">
+                <img src="images/pic6.png" alt="">
+                <div class="features-layer">
+                    <h4>High compatibility</h4>
+                    <p>Compatible with each type of size and resolution of different screens</p>
+                </div>
+            </div>
+
+            <div class="features-box">
+                <img src="images/pic9.png" alt="">
+                <div class="features-layer">
+                    <h4>Powerful synchronization</h4>
+                    <p>Good synchronization capability between different devices</p>
+                </div>
+            </div>
+
+            <div class="features-box">
+                <img src="images/pic10.png" alt="">
+                <div class="features-layer">
+                    <h4>Good customer service</h4>
+                    <p>Flexible and dedicated customer service system</p>
+                </div>
+            </div>
+
+            <div class="features-box">
+                <img src="images/pic11.png" alt="">
+                <div class="features-layer">
+                    <h4>Completely free</h4>
+                    <p>The first version of MyNote 1.0 will be released completely free of charge</p>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!--contact-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Emal Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Developed by Le Quoc Huy | Student ID: 19IT161</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
